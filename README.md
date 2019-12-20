@@ -38,11 +38,11 @@ Help to track visitors
 ## Getting started
 From bower
 ```javascript
-bower install originjs --save
+bower install cn-originjs --save
 ```
 From npm
 ```javascript
-npm install originjs --save
+npm install cn-originjs --save
 ```
 ## How it works
 ```javascript
@@ -64,6 +64,6 @@ origin.getParams() //=> return url params in object type
 
 ## Licence
 ```
-MIT
+WWW.CSHANS.CN | 中软汉思
 ```
 

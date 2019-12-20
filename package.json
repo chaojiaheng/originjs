@@ -1,11 +1,11 @@
 {
-  "name": "originjs",
+  "name": "cn-originjs",
   "description": "Help to track visitors",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "main": "dist/originjs.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Oliv75/OriginJS.git"
+    "url": "https://github.com/chaojiaheng/originjs.git"
   },
   "keywords": [
     "tracking",
@@ -13,10 +13,10 @@
     "params",
     "sources"
   ],
-  "author": "Oliv75",
-  "license": "MIT",
+  "author": "Origin",
+  "license": "CSHANS.CN",
   "bugs": {
-    "url": "https://github.com/Oliv75/OriginJS/issues"
+    "url": "https://github.com/chaojiaheng/originjs/issues"
   },
   "dependencies": {},
   "devDependencies" : {
