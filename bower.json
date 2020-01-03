@@ -1,7 +1,7 @@
 {
-  "name": "originjs",
+  "name": "cn-originjs",
   "description": "Help to track visitors",
   "main": "dist/originjs.js",
-  "version": "0.1.1",
+  "version": "1.0.3",
   "dependencies": {}
 }

@@ -22,7 +22,6 @@ Originjs 的理念是一套基于nodejs 的轻量级的逻辑处理框架，用�
 //项目目录
 
 main.js 为项目入口文件
-node_moudels
 package.json
 origin
 	--index.js
@@ -48,12 +47,20 @@ npm install cn-originjs --save
 ```javascript
 var origin = new $Origin();
 
+
+// origin 重写
+
+origin.getAjax();//=>ajax get 
+origin.post.Ajax(); //=> ajax post 
+origin.getParams() //=> return url params in object type
+origin.forData();//=> for data
 origin.getSource() //=> return utm_source
 origin.getMedium() //=> return utm_medium
 origin.getContent() //=> return utm_content
 origin.getCampaign() //=> return utm_campaign
 origin.getTerm() //=> return utm_term
-origin.getParams() //=> return url params in object type
+
+
 ```
 ## Contributing
 1. Fork it
