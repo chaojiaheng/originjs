@@ -2,12 +2,15 @@
 
 slogan：originjs is origin;
 
-origin 中文名称 => "元"；你也可以理解为源或原；意义为最初的状态;
+origin 中文名称 => "元"；你也可以理解为源或原；意义为最原始的状态;类似于盘古开天地前混沌，他应有样子。
 
 
 originjs is origin 翻译成中文 元本是元 ；见路不走，即见因果；见相非相，即见如来;
 
-Originjs 的理念是一套基于nodejs 的轻量级的逻辑处理框架，用于日常数据、方法的处理;
+不拘泥于经验教条，同时又吸收前人成熟的方法。
+
+
+Originjs 的理念是一套基于原生Javascript 的轻量级的逻辑处理框架，用于日常数据、方法的处理;
 
 
 多数程序员在使用前端框架的时候可能会使用vue、react、ng等，虽然他们会以轻量高效著称，但是是否如他们讲的那样只有开发者有发言权。Originjs的出现并非是替代或颠覆而是完善，也就是说无论你是使用vue或react开发的项目您都可以使用Orgingjs加入到您的项目当中;
@@ -19,17 +22,9 @@ Originjs 的理念是一套基于nodejs 的轻量级的逻辑处理框架，用�
 
 在语法上originjs基于原生的JavaScript开发，支持原生JavaScript ES6/7/8/9...,所以您不必为语法上做过多的纠结，只需按照我们的约定方式。
 
-//项目目录
 
-main.js 为项目入口文件
-package.json
-origin
-	--index.js
-	--data.js
-	--ajax.js
-	--fordata.js
 
-	# OriginJS
+# OriginJS
 Help to track visitors
 ## Requirement
 * google analytics installed
@@ -45,12 +40,17 @@ npm install cn-originjs --save
 ```
 ## How it works
 ```javascript
-var origin = new $Origin();
+(1)originAjax(a,b,c,d,e);
+	//=>ajax 
+	Parameters you have to pass！！！
+	a:url 
+	b:type(post/get/put...) 
+	c:cookie save true or false 
+	d:callback 
+	e:params
 
 
-// origin 重写
 
-origin.getAjax();//=>ajax get 
 origin.post.Ajax(); //=> ajax post 
 origin.getParams() //=> return url params in object type
 origin.forData();//=> for data
