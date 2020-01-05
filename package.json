@@ -1,7 +1,7 @@
 {
   "name": "cn-originjs",
   "description": "Help to track visitors",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/originjs.js",
   "repository": {
     "type": "git",
