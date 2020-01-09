@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hello OriginJs</title>
+	<link rel="stylesheet" href="static/css/common.css">
+	<script src="originjs.js"></script>
+</head>
+<body>
+<div class="logo">
+	<img src="static/images/logo.png">
+</div>
+<h1>Hello OriginJs</h1>
+<h2 class="title">What OriginJs can do is to help developers deal with business logic, not the rendering of pages .</h2>
+<div id="demo1">
+	<h2>Introduction of advantages:</h2>
+	<h3>Cycle of data:</h3>
+	<ul id="originFor"></ul>
+</div>
+<footer>E-mail: chaojiaheng@gmail.com</footer>
+<script type="text/javascript">
+// originAjax
+var params = {
+	"name":"origin",
+	"age":'24'
+}
+originAjax(originUrl,get,true,function(data){
+	console.log(data)
+},params);
+// originFor
+var domNode = document.getElementById('originFor');
+var arr =['A lightweight JavaScript framework','Less than 10k in size','The author of this framework is a guy from China','You can contact him by email'];
+originFor(arr,domNode,function(data){
+	domNode.innerHTML += '<li>'+data+'</li>'
+})
+
+document.getElementById('demo1').appendChild(domNode)
+</script>
+</body>
+</html>

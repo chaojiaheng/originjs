@@ -10,6 +10,7 @@ var originUrl = local_url;
 var data = '';
 var get = 'get';
 var post = 'post'
+// originAjax --Ajax
 function originAjax(URL,type,cookie,callback,params) {
     console.log(originAjax.arguments)
     type == 'get' ? params = '' : params;
@@ -29,7 +30,20 @@ function originAjax(URL,type,cookie,callback,params) {
 
 }
 
+// originLazyLoad -- lazyLoad
+originLazyLoad();
+function originLazyLoad(){
+	console.log('lazyLoading....')
+}
 
+//originFor -- forEach
+// arr: Data to process 
+// domNode: Insertion node
+function originFor(arr,domNode,callback){
+	arr.forEach(function originFor(currentValue, index,arr){
+		callback(currentValue);
+	})
+};
 
 
 

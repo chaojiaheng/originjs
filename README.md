@@ -2,15 +2,15 @@
 
 slogan：originjs is origin;
 
-origin 中文名称 => "元"；你也可以理解为源或原；意义为最原始的状态;类似于盘古开天地前混沌，他应有样子。
+origin 中文名称 => "元"；你也可以理解为源或原；意义为最原始的状态;类似混沌。
 
 
 originjs is origin 翻译成中文 元本是元 ；见路不走，即见因果；见相非相，即见如来;
 
-不拘泥于经验教条，同时又吸收前人成熟的方法。
+本着不拘泥于经验教条，同时又吸收前人成熟的方法，赋能开发者。
 
 
-Originjs 的理念是一套基于原生Javascript 的轻量级的逻辑处理框架，用于日常数据、方法的处理;
+Originjs 的理念是一套基于原生Javascript 的轻量级的JavaScript框架，用于数据、方法的处理;
 
 
 多数程序员在使用前端框架的时候可能会使用vue、react、ng等，虽然他们会以轻量高效著称，但是是否如他们讲的那样只有开发者有发言权。Originjs的出现并非是替代或颠覆而是完善，也就是说无论你是使用vue或react开发的项目您都可以使用Orgingjs加入到您的项目当中;
@@ -25,7 +25,7 @@ Originjs 的理念是一套基于原生Javascript 的轻量级的逻辑处理框
 
 
 # OriginJS
-Help to track visitors
+Help developers complete tasks faster
 ## Requirement
 * google analytics installed
 
@@ -36,7 +36,7 @@ bower install cn-originjs --save
 ```
 From npm
 ```javascript
-npm install cn-originjs --save
+npm install cn-originjs 
 ```
 ## How it works
 ```javascript
@@ -48,7 +48,15 @@ npm install cn-originjs --save
 	c:cookie save true or false 
 	d:callback 
 	e:params
-
+(2)originFor
+	First step :Preparation data and target DOM Node
+	arr: Data to process 
+	domNode: Insertion node
+	The second step: Call it
+	originFor(arr,domNode,function(data){
+		//Your code...
+	})
+	The third step: insert to target DOM Node
 
 
 origin.post.Ajax(); //=> ajax post 
@@ -71,6 +79,6 @@ origin.getTerm() //=> return utm_term
 
 ## Licence
 ```
-WWW.CSHANS.CN | 中软汉思
+CSHANS.CN | CN-OriginJs
 ```
 
