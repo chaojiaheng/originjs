@@ -1,7 +1,7 @@
 {
   "name": "cn-originjs",
   "description": "Help to track visitors",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/originjs.js",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "params",
     "sources"
   ],
-  "author": "Origin",
+  "author": "chaojiaheng",
   "license": "CSHANS.CN",
   "bugs": {
     "url": "https://github.com/chaojiaheng/originjs/issues"
